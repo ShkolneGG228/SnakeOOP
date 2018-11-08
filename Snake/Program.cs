@@ -10,12 +10,23 @@ namespace Snake
     {
         static void Main(string[] args)
         {
-            
-            HorizontalLine lineHor = new HorizontalLine(5,10,8,'$');
-            lineHor.Drow();
+            Console.SetBufferSize(80, 25);
 
-            VerticalLine lineVer = new VerticalLine(5, 10, 18, '%');
-            lineVer.Drow();
+            /*HorizontalLine lineHor = new HorizontalLine(5,10,8,'$');
+            lineHor.Drow();*/
+
+           /* VerticalLine lineVer = new VerticalLine(0, 78, 0, '%');
+            lineVer.Drow();*/
+
+            HorizontalLine upLine = new HorizontalLine(0, 78, 0, '+');
+            HorizontalLine downLine = new HorizontalLine(0, 78, 24, '+');
+            VerticalLine leftLine = new VerticalLine(0, 24, 0, '+');
+            VerticalLine rightLine = new VerticalLine(0, 24, 78, '+');
+            upLine.Drow();
+            downLine.Drow();
+            leftLine.Drow();
+            rightLine.Drow();
+            
 
             Console.ReadKey();
         }
