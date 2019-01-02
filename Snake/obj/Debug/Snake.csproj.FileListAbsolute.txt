@@ -4,3 +4,9 @@ C:\work\Snake\Snake\bin\Debug\Snake.pdb
 C:\work\Snake\Snake\obj\Debug\Snake.csprojResolveAssemblyReference.cache
 C:\work\Snake\Snake\obj\Debug\Snake.exe
 C:\work\Snake\Snake\obj\Debug\Snake.pdb
+C:\work\charp\Snake\bin\Debug\Snake.exe.config
+C:\work\charp\Snake\obj\Debug\Snake.exe
+C:\work\charp\Snake\obj\Debug\Snake.pdb
+C:\work\charp\Snake\bin\Debug\Snake.exe
+C:\work\charp\Snake\bin\Debug\Snake.pdb
+C:\work\charp\Snake\obj\Debug\Snake.csprojResolveAssemblyReference.cache
